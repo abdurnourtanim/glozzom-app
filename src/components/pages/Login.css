@@ -1,0 +1,23 @@
+.login__container {
+  background: linear-gradient(206deg, #2438a6, #883063);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__form {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.not__signin {
+  justify-content: space-between;
+}
+
+.not__signin a:hover {
+  text-decoration: underline !important;
+}
+.login {
+  font-family: "Operator Mono";
+  font-size: 22px;
+}

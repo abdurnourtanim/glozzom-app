@@ -1,0 +1,86 @@
+.home__section__icon {
+  font-size: 3rem !important;
+}
+.get__start__container .dark__overlay {
+  background: linear-gradient(rgb(0 0 0 / 64%), rgb(8 8 8 / 55%)),
+    url("../images/image4.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.get__start__container .dark__overlay p {
+  width: 600px;
+  margin: auto;
+  color: antiquewhite;
+}
+
+.home__info__container {
+  color: #902f66;
+}
+.info__btn {
+  text-decoration: none;
+  color: #000;
+}
+.info__btn:hover {
+  color: #000;
+}
+
+.home__video__container {
+  background: linear-gradient(#0000007c, #0000007c),
+    url("../images/image6.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.video__play__icon {
+  font-size: 4rem !important;
+  color: red;
+}
+.video__light__box h2 {
+  color: #fff;
+}
+
+.home__gallery__container h3 {
+  font-size: 2rem;
+  color: #902f66;
+}
+
+.img__gallery__item {
+  min-height: 220px;
+}
+
+.home__news__letter__container {
+  background-color: #343a40;
+}
+.home__news__letter__container h2 {
+  font-size: 2rem;
+}
+.home__news__letter__container p {
+  color: rgb(255, 255, 255);
+  font-family: "Fira Code";
+}
+.home__news__letter__container form input:focus {
+  outline: none !important ;
+}
+.home__news__letter__container form button {
+  font-family: "Fira Code";
+}
+
+@media screen and (max-width: 767px) {
+  .get__start__container .dark__overlay p {
+    width: fit-content;
+  }
+  .home__info__container {
+    text-align: center;
+  }
+
+  .home__news__letter__container form input {
+    margin: 5px auto 10px auto;
+    width: 80%;
+  }
+  .home__news__letter__container form button {
+    width: 80%;
+  }
+}

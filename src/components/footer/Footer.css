@@ -1,0 +1,12 @@
+.footer__container {
+  background-color: #d1ebea;
+}
+.footer__container a {
+  color: #902f65;
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer__container span {
+  font-weight: bold;
+}

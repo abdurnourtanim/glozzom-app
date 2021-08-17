@@ -1,0 +1,42 @@
+.carousel__container img {
+  height: 450px;
+  background-size: cover;
+}
+.carousel__caption {
+  top: 30%;
+}
+.carousel__heading__one {
+  color: #5dce61;
+  font-size: 2.5rem;
+  text-shadow: 5px 3px 4px #000000;
+}
+.carousel__heading__two {
+  color: #ffeb3b;
+  font-size: 2.5rem;
+  text-shadow: 5px 3px 4px #000000;
+}
+.carousel__heading__three {
+  color: #0dcaf0;
+  font-size: 2.5rem;
+  text-shadow: 5px 3px 4px #000000;
+}
+.text__right {
+  text-align: right;
+}
+.text__left {
+  text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel__caption {
+    top: 20%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .carousel__caption {
+    top: 15%;
+  }
+  .carousel__caption h3 {
+    font-size: 2rem;
+  }
+}

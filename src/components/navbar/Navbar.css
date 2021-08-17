@@ -1,0 +1,124 @@
+.navbar__container {
+  background: linear-gradient(45deg, #821251e0, #033230f2);
+}
+.logo {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #fde7f3 !important;
+}
+li a {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.mobile__menu {
+  color: #fff;
+  display: none;
+}
+.mobile__menu .mobile__icon {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.mobile__navbar {
+  display: none;
+}
+
+.show {
+  opacity: 0;
+  transition: all 3s;
+}
+
+.nav-item:hover {
+  background-color: #882f63 !important;
+  border-radius: 5px;
+}
+.nav-item:hover .nav-link {
+  color: #fff !important;
+}
+
+.navbar__account a {
+  transition: all 0.3s;
+}
+.nav-item:hover a {
+  color: #fff;
+}
+
+.login__btn {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Operator Mono";
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .show__on__top {
+    z-index: 11111;
+  }
+  .hide__menu {
+    display: none;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+  .mobile__navbar {
+    display: block;
+  }
+
+  .navbar__account {
+    padding: 10px 80px !important;
+  }
+  .navbar__account a {
+    font-size: 1.5rem;
+  }
+  .show__mobile__menu {
+    display: block;
+    position: absolute;
+    width: 0%;
+    /* height: 551px; */
+    height: 100vh;
+    background: #203b40;
+    top: 74px;
+    left: -120px;
+    transition: all 0.5s;
+  }
+
+  .toggle__mobile__menu {
+    left: 0;
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  ul li {
+    background: #fff0;
+    margin-top: 31px;
+    border: 1px solid #fff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .nav-item:hover {
+    background-color: #fff !important;
+    border-radius: 5px;
+  }
+  .nav-item:hover .nav-link {
+    color: #000 !important;
+  }
+
+  ul li a {
+    transition: all 0.3s;
+  }
+
+  .btn__item {
+    border: none;
+    width: fit-content;
+    padding: 0;
+    margin-top: 50px;
+  }
+}
